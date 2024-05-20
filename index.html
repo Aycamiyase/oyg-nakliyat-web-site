@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>OYG NAKLİYAT WEB SİTE</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!--! Başlık bölümü başlangıcı-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" />
+        </a>
+        <nav class="navbar">
+            <a href="#anasayfa" class="active">Ana sayfa</a>
+            <a href="#neyapıyoruz">Ne yapıyoruz?</a>
+            <a href="#bizkimiz">Biz kimiz?</a>
+            <a href="#iletişim">İletişim</a>
+        </nav>
+        <!--! Butonlar -->
+        <div class="buttons">
+            <button>
+                <button style="background-color: #10132e; border-color:blue ; color: white;">
+                <i class="fas fa-search"></i>
+            </button>
+            <button>
+                <button style="background-color: #10132e; border-color:blue ; color: white;">
+                <i class="fas fa-house"></i>
+            </button>
+            <button>
+                <button style="background-color: #10132e; border-color:blue ; color: white;">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header> 
+     <!--! Başlık bölümü bitimi-->
+
+     <!--! Ana sayfa başlangıç -->
+     <section class="anasayfa" id="anasayfa"> 
+        <div class="content">
+            <h3>HOŞGELDİNİZ</h3>
+        <P>
+            OYG NAKLİYAT HAFR. İNŞ. TAAH. SAN. VE TİC. LTD. ŞTİ
+        </P>
+        <a href="#iletişim" class="btn">İletişime Geç</a>
+        
+         </div>
+     </section>
+     <!--Ana sayfa bitiş-->
+
+     <!--! Ne yapıyoruz kısmı başlangıç-->
+     <section class="neyapıyoruz" id="neyapıyoruz"> 
+        <div class="text-box">
+            <h1>Ne Yapıyoruz?</h1>
+            <p>OYG Nakliyat Mersin'de gelişen inşaat, madencilik ve liman sektörünün ihtiyacına yönelik Nakliye, Hafriyat, Depolama, konteyner Taşımacılığı, konteyner içi yükleme-boşaltma, Vagon yükleme-boşaltma, Liman Hizmeti, Saha Yapımı, Gemi Tahliyesi, Gemi yüklemesi, Şehir içi/ Şehirler arası nakliye, iş takibi konusundaki titiz çalışmaları ile sektörde yerini almıştır.</p>
+        </div>
+            
+
+     </section>
+     <!--! Ne yapıyoruz kısmı bitiş-->
+     <!--! Biz Kimiz kısmı balangıç-->
+     <section class="bizkimiz" id="bizkimiz"> 
+        <div class="text-box2">
+            <h1>Biz Kimiz?</h1>
+            <p> 1980 yılında taksici olarak mersinde çalışan Yunus Çelik ticari zekası ile nakliye sektörüne atılmıştır  başarısı ile  sektörde  adından çokça söz ettirip. İşlerini vefatına kadar kendisi ve 5 çocuğuyla devam ettirmiştir. şu anda çocukları babalarının izinden başarılı bir şekilde  devam etmektedir. </p>
+        </div>
+        </section>
+     <!--! Biz Kimiz kısmı balangıç-->
+     <!--! iletişim kısmı başlangıç-->
+     <section class="contact" id="iletişim">
+        <h1 class="heading">İLETİŞİM</h1>
+        <div class="row">
+          <iframe class="map"
+             src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d474.7570579642038!2d34.68389554677105!3d36.824155410182286!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1716226713803!5m2!1str!2str" 
+             width="500" 
+             height="550" 
+             style="border:0;" 
+             allowfullscreen=""
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </iframe>
+          <form action="baglanti2.php" method="POST">
+    
+            <h3>İletişime geç</h3>
+            <div class="inputBox"><i class="fas fa-user"></i>
+              <input type="text" placeholder="name" name="isim"/>
+            </div>
+            <div class="inputBox"><i class="fas fa-envelope" ></i>
+              <input type="email" placeholder="email" name="email"/>
+            </div>
+            <div class="inputBox"><i class="fas fa-phone"   ></i>
+              <input type="number" placeholder="phone number" name="numara" />
+            </div>
+            <input type="submit" class="btn" value="Gönder" name="gönder" />
+          </form>
+        </div>
+      </section>
+      <!--! iletişim kısmı bitiş-->
+      <!--! footer section start-->
+  <section class="footer">
+  <div class="telno"></div>
+    <h1>Deniz Çelik +90 0532 699 2903</h1> 
+    <h1>Yunus Emre Çelik +90 0532 569 1707</h1> 
+
+
+    <div class="share">
+      <a href="https://www.instagram.com/oygnakliyathaf/" class="fab fa-instagram active"></a>
+    </div>
+
+    <div class="links">
+      <a href="#anasayfa" class="active">Anasayfa</a>
+      <a href="#neyapıyoruz" class="active">Ne yapıyoruz</a>
+      <a href="#bizkimiz" class="active">Biz Kimiz?</a>
+      <a href="#iletişim" class="active">iletişim</a>
+    </div>
+
+    <div class="credit">
+      <span>  by Ayça Miyase ÇELİK</span>
+    </div>
+  </section>
+  <!--! footer section end-->
+      
+    
+        </div>
+       </div>
+     
+
+     
+</body>
+</html> 
